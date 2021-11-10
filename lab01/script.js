@@ -35,5 +35,6 @@ require(['esri/config', 'esri/Map', 'esri/views/MapView', 'esri/Graphic', 'esri/
 	graphicsLayer.add(withGraphic(kien_giang));
 	graphicsLayer.add(withGraphic(an_giang));
 	graphicsLayer.add(withGraphic(can_tho));
+	graphicsLayer.add(withGraphic(hau_giang));
 	map.add(graphicsLayer);
 });
